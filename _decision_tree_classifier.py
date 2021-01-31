@@ -51,29 +51,5 @@ pred_y = model.predict(pred_x)
 pred_data_reverse = encoders[-1].inverse_transform(pred_y) # 反向解析出数据
 print('pred_data_reverse:\n ', pred_data_reverse)
 
-    
-    
-    
-    
-    
-    
-    
-    
 
-
-
-
-
-
-
-
-
-
-
-    
-        
-        
-    
-    
-    
 
