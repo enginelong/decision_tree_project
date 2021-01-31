@@ -4,7 +4,7 @@ import sklearn.ensemble as se
 import sklearn.model_selection as ms
 
 raw_samples = [] # 保存样本数据
-with open('D:\\python\\第五阶段\\ML\\project\\05\\ML_Decision_Tree_Classifier\\car.txt', 'r') as f:
+with open('D:\python\data\car.txt', 'r') as f:
     for line in f.readlines():
         raw_samples.append(line.replace('\n', '').split(','))
 data = np.array(raw_samples).transpose()
@@ -76,3 +76,4 @@ print('pred_data_reverse:\n ', pred_data_reverse)
     
     
     
+
